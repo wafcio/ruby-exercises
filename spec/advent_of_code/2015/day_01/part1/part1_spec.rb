@@ -42,14 +42,6 @@ RSpec.describe AdventOfCode2015::Day1::Part1 do
   end
 
   describe "sixth example" do
-    let(:input) { "))(((((" }
-
-    it "return valid number" do
-      expect(subject.run(input)).to eq(3)
-    end
-  end
-
-  describe "seventh example" do
     let(:input) { "())" }
 
     it "return valid number" do
@@ -57,7 +49,7 @@ RSpec.describe AdventOfCode2015::Day1::Part1 do
     end
   end
 
-  describe "eighth example" do
+  describe "seventh example" do
     let(:input) { "))(" }
 
     it "return valid number" do
@@ -65,7 +57,7 @@ RSpec.describe AdventOfCode2015::Day1::Part1 do
     end
   end
 
-  describe "ninth example" do
+  describe "eighth example" do
     let(:input) { ")))" }
 
     it "return valid number" do
@@ -73,7 +65,7 @@ RSpec.describe AdventOfCode2015::Day1::Part1 do
     end
   end
 
-  describe "tenth example" do
+  describe "ninth example" do
     let(:input) { ")())())" }
 
     it "return valid number" do
@@ -81,7 +73,7 @@ RSpec.describe AdventOfCode2015::Day1::Part1 do
     end
   end
 
-  describe "eleventh example" do
+  describe "tenth example" do
     let(:input) { File.read("spec/support/advent_of_code/2015/day_01/input.txt") }
 
     it "return valid number" do
