@@ -7,4 +7,3 @@ RSpec.describe Euler1 do
     end
   end
 end
-

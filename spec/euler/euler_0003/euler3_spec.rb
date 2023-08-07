@@ -15,4 +15,3 @@ RSpec.describe Euler3 do
     end
   end
 end
-
