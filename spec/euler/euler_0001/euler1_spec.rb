@@ -1,4 +1,4 @@
-require_relative "../../../exercises/euler/euler_0001/euler_0001"
+require_relative "../../../exercises/euler/euler_0001/euler1"
 
 RSpec.describe Euler1 do
   describe "Euler #1 problem" do
