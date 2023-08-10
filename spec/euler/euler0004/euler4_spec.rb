@@ -1,4 +1,4 @@
-require_relative "../../../exercises/euler/euler_0004/euler4"
+require_relative "../../../exercises/euler/euler0004/euler4"
 
 RSpec.describe Euler4 do
   context "with input 2" do

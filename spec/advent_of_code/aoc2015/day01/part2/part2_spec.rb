@@ -1,7 +1,7 @@
-require_relative "../../../../../exercises/advent_of_code/2015/day_01/part2/part2"
+require_relative "../../../../../exercises/advent_of_code/aoc2015/day01/part2/part2"
 
 RSpec.describe AdventOfCode2015::Day1::Part2 do
-  describe "first example" do
+  context "with input )" do
     let(:input) { ")" }
 
     it "return valid number" do
@@ -9,7 +9,7 @@ RSpec.describe AdventOfCode2015::Day1::Part2 do
     end
   end
 
-  describe "second example" do
+  context "with input ()())" do
     let(:input) { "()())" }
 
     it "return valid number" do
@@ -17,7 +17,7 @@ RSpec.describe AdventOfCode2015::Day1::Part2 do
     end
   end
 
-  describe "third example" do
+  context "with big input" do
     let(:input) { File.read("spec/support/advent_of_code/2015/day_01/input.txt") }
 
     it "return valid number" do
