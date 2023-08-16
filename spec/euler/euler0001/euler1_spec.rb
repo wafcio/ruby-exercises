@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative "../../../exercises/euler/euler0001/euler1"
 
 RSpec.describe Euler1 do

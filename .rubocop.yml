@@ -1,0 +1,18 @@
+AllCops:
+  TargetRubyVersion: 3.2
+  NewCops: enable
+
+Metrics/BlockLength:
+  Max: 30
+  Exclude:
+    - "spec/**/*.rb"
+    - "config/**/*.rb"
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes

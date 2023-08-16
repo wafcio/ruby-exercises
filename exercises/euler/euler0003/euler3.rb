@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 class Euler3
   def run(n)
     m = 2
 
     while n > 1
-      if n % m == 0
-        n = n / m
+      if (n % m).zero?
+        n /= m
       else
         m += 1
       end

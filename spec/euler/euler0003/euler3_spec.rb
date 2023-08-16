@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative "../../../exercises/euler/euler0003/euler3"
 
 RSpec.describe Euler3 do
@@ -9,7 +11,7 @@ RSpec.describe Euler3 do
 
   context "with input 600_851_475_143" do
     it "returns valid number" do
-      expect(subject.run(60_0851_475_143)).to eq(6_857)
+      expect(subject.run(600_851_475_143)).to eq(6_857)
     end
   end
 end

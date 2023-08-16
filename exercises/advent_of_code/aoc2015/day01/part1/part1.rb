@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module AdventOfCode2015
   module Day1
     class Part1
