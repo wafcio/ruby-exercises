@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative "../../../../../exercises/advent_of_code/aoc2015/day01/part2/part2"
+require_relative "../../../../exercises/advent_of_code/aoc2015/day01/part2"
 
-RSpec.describe AdventOfCode2015::Day1::Part2 do
+RSpec.describe AdventOfCode::Aoc2015::Day01::Part2 do
   context "with input )" do
     let(:input) { ")" }
 
