@@ -22,6 +22,4 @@ class Euler2
   private
 
   attr_reader :num1, :num2, :sum, :value
-
-  # def calculate_sum(num1, num2, sum)
 end
